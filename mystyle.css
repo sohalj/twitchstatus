@@ -1,0 +1,47 @@
+
+
+.ba{
+	background: red;
+}
+
+.ra{
+	background: blue;
+}
+
+
+.ca{
+	background: yellow;
+}
+
+.da{
+	background: green;
+}
+
+.ea{
+	background: orange;
+}
+
+.bt{
+	width: 30%;
+	
+	padding: 10px 20px 10px 20px;
+}
+
+.btn-group{
+	width: 140%;
+	padding: 0px 19px 10px 19px;
+	margin: 0px 0px 0px -33px;
+	
+}
+img{
+	margin: 0px 0px 0px 0px;
+}
+body{
+	background-color: red;
+}
+
+@media screen and (max-width : 1367px){
+	.ea{
+		background: blue;
+	}
+}
