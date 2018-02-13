@@ -72,8 +72,15 @@ li{
 
 
 
-.fa {                   /*font awesome*/      
+.fa-check{                   /*font awesome*/      
 	color: green;
+	font-size: 22px;
+	margin-top: 30px;
+	margin-right: 7px;
+}
+
+.fa-exclamation{                   /*font awesome*/      
+	color: red;
 	font-size: 22px;
 	margin-top: 30px;
 	margin-right: 7px;
