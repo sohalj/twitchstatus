@@ -1,5 +1,6 @@
 
 
+
 .ba{
 	background: red;
 }
@@ -21,33 +22,38 @@
 	background-color: orange;
 }
 
-.bt{
-	width: 30%;
-	
-	padding: 10px 20px 10px 20px;
+.bt{		/*the buttons all off and on*/
+	width: 26%;
+	padding: 10px 30px;
 }
 
-.btn-group{
-	width: 140%;
-	padding: 0px 19px 10px 19px;
-	margin: 0px 0px 0px -33px;
+.btn-group{ /*buttons group*/
+	width: 143%;
+	padding-right: 100px;
+	margin-bottom: 20px;
+	/*padding: 0px 19px 10px 19px;
+	margin: 0px 0px 0px -33px;*/
 	
 }
-.logo{
-	margin-top: 20px;
+.logo{ /*logo of the channel*/
+	margin-top: 13px;
 	border-radius: 20px;
 	width: 50px; 
 	height: 50px;
 	margin-left: 7px;
 }
 
-a{
-	margin-left: 20px;
-	margin-top:  100px;
+a{ /*anchor with the channels name and takes you to channels page*/
+	position: relative;
+	top: 20px;
+	bottom: 0px;
+	padding-left: 20px;
+	color: green;
+	font-size: 20px;
 }
 
-img{
-	margin: 0px 0px 0px 0px;
+img{ /* the logo of the channel*/
+	/*margin: 0px 0px 0px 0px;*/
 }
 body{
 	background-color: red;
@@ -55,22 +61,34 @@ body{
 
 @media screen and (max-width : 1367px){
 	.ea{
-		background: white;
+		background: blue;
 	}
 }
 
-li{  
-    border: 3px solid white;
-    margin-right: -15px;
+li{  /*the list elements created for each channel*/
+    border: 2px solid blue;
+    height: 80px;
     margin-left: -15px;
-    height: 100px;
+    margin-right: -15px;
+
+
+   /* margin-right: -15px;
+    margin-left: -15px;
     margin-top: -10px;
-    margin-bottom: -10px
+    margin-bottom: -10px*/
 
 
 }
 
 
+.status{
+	color: purple;
+	padding: 30px 80px;
+	font-size: 12px;
+}
+.box{ /*The main box where everything is store*/
+	padding-top: 20px;
+}
 
 .fa-check{                   /*font awesome*/      
 	color: green;
@@ -85,3 +103,7 @@ li{
 	margin-top: 30px;
 	margin-right: 7px;
 }
+
+
+
+
