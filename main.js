@@ -42,7 +42,7 @@ function display(logo, stream, url, name, status){
    p2.setAttribute("style", "float:right");
    var i2 = document.createElement("i");
    setAttribute(i2, { 'class': symbol});
-   //console.log(i2)
+   //console.
    p2.appendChild(i2);
    l.appendChild(p);
    l.appendChild(p2);
