@@ -1,17 +1,3 @@
-#online, #offline{
-	border-left: none;
-}
-
-.btn-group{ /*buttons group*/
-	width: 102%;
-}
-
-.btn{
-	border: 2px solid #007AC1; 
-	width: 33%;
-	color: white;
-	background-color: #F05133;*
-}
 a{ /*anchor with the channels name and takes you to channels page*/
 	position: relative;
 	top: 20px;
@@ -38,19 +24,36 @@ li{  /*the list elements created for each channel*/
     margin-left: -15px;
     margin-right: -15px;
     border-bottom: 2px solid #007AC1; 
-
-
-
-}
-
-ul{/*list that contains all the li elements */
-	
 }
 
 h2{ /*Header "Twitch Status" */
 	font-family: "Times New Roman", Times, serif;
 	font-size: 40px;
 	color: #007AC1;
+}
+
+footer{
+	color: #F05133;
+	position: absolute;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+  	padding: 1rem;
+}
+
+#online, #offline{
+	border-left: none;
+}
+
+.btn-group{ /*buttons group*/
+	width: 102%;
+}
+
+.btn{
+	border: 2px solid #007AC1; 
+	width: 33%;
+	color: white;
+	background-color: #F05133;
 }
 
 .status{
@@ -62,10 +65,8 @@ h2{ /*Header "Twitch Status" */
 	font-style: italic;
 	font-weight: bold;
 	font-size: 15px;
-
 }
 .box{ /*The main box where everything is store*/
-	
 	background-color: white;
 	border: 3px solid #F05133; 
 }
@@ -87,7 +88,3 @@ h2{ /*Header "Twitch Status" */
 	margin-top: 30px;
 	margin-right: 7px;
 }
-
-
-
-
