@@ -1,46 +1,3 @@
-a{ /*anchor with the channels name and takes you to channels page*/
-	position: relative;
-	top: 20px;
-	bottom: 0px;
-	padding-left: 20px;
-	color: ;
-	font-family: "Times New Roman", Times, serif;
-	font-size: 22px;
-}
-
-img{ /* the logo of the channel*/
-	margin-top: 20px;
-	border-radius: 20px;
-	width: 50px; 
-	height: 50px;
-	margin-left: 7px;
-}
-body{
-	background-color: #007AC1;
-}
-
-li{  /*the list elements created for each channel*/
-    height: 100px;
-    margin-left: -15px;
-    margin-right: -15px;
-    border-bottom: 2px solid #007AC1; 
-}
-
-h2{ /*Header "Twitch Status" */
-	font-family: "Times New Roman", Times, serif;
-	font-size: 40px;
-	color: #007AC1;
-}
-
-footer{
-	color: #F05133;
-	position: absolute;
-  	right: 0;
-  	bottom: 0;
-  	left: 0;
-  	padding: 1rem;
-}
-
 #online, #offline{
 	border-left: none;
 }
@@ -88,3 +45,52 @@ footer{
 	margin-top: 30px;
 	margin-right: 7px;
 }
+
+
+
+
+a{ /*anchor with the channels name and takes you to channels page*/
+	position: relative;
+	top: 20px;
+	bottom: 0px;
+	padding-left: 20px;
+	color: ;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 22px;
+}
+
+img{ /* the logo of the channel*/
+	margin-top: 20px;
+	border-radius: 20px;
+	width: 50px; 
+	height: 50px;
+	margin-left: 7px;
+}
+
+body{
+	background-color: #007AC1;
+}
+
+li{  /*the list elements created for each channel*/
+    height: 100px;
+    margin-left: -15px;
+    margin-right: -15px;
+    border-bottom: 2px solid #007AC1; 
+}
+
+h2{ /*Header "Twitch Status" */
+	font-family: "Times New Roman", Times, serif;
+	font-size: 40px;
+	color: #007AC1;
+}
+
+footer{
+	color: #F05133;
+}
+
+@media screen and (max-width: 950px) {
+	.status{
+    	font-size: 11px;
+  	}
+}
+

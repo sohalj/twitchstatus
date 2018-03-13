@@ -13,27 +13,27 @@ function display(logo, stream, url, name, status){
   var symbol = null;
   var l = document.createElement("li");
   if(stream == 0){
-  	l.setAttribute("class", "off");
+    setAttribute(l, {class: "off"});
     symbol = "fa fa-exclamation";
   }
   else{
-  	l.setAttribute("class", "on");
+    setAttribute(l, {class: "on"});
     symbol = "fa fa-check";
   }
-
+ 
   var i = document.createElement("img");
-  setAttribute(i, {"class": "img-responsive", src: logo, "style": "float:left"});
+  setAttribute(i, {class: "img-responsive", src: logo, style: "float:left"});
   var i2 = document.createElement("i");
-  setAttribute(i2, {"class": symbol, "style": "float:right"});
+  setAttribute(i2, {class: symbol, style: "float:right"});
   l.appendChild(i);
   l.appendChild(i2);
   var h = document.createElement("a");
-  setAttribute(h, {href: url, target: '_blank'});
+  setAttribute(h, {href: url, target: "_blank"});
   var t = document.createTextNode(name);
   h.appendChild(t);
   l.appendChild(h);
   var s = document.createElement("p");
-  setAttribute(s, {"class": "status"});
+  setAttribute(s, {class: "status"});
   var status = document.createTextNode(status);
   s.appendChild(status)
   l.appendChild(s);
